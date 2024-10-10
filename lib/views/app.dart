@@ -3,6 +3,8 @@ import 'login.page.dart';
 import 'newaccount.page.dart';
 import 'mysubjects.page.dart';
 import 'subject.page.dart';
+import 'searchsubjects.page.dart';
+import 'addsubject.page.dart';
 
 class TecmerpApp extends StatelessWidget {
   const TecmerpApp({super.key});
@@ -20,6 +22,8 @@ class TecmerpApp extends StatelessWidget {
         "/new-account": (context) => NewAccountPage(),
         "/my-subjects": (context) => MySubjects(),
         "/subject": (context) => Subject(),
+        "/searchsubject": (context) => SearchSubject(),
+        "/addsubject": (context) => AddSubject(),
       },
       initialRoute: "/my-subjects",
     );
